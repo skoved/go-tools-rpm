@@ -12,7 +12,7 @@
 
 # https://sigs.k8s.io/kind
 %global goipath         sigs.k8s.io/kind
-%global forgeurl        https://github.com/kubernetes-sigs/kind.git
+%global forgeurl        https://github.com/kubernetes-sigs/kind
 Version:                0.29.0
 %global tag             v0.29.0
 
