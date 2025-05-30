@@ -10,8 +10,9 @@
 %global __requires_exclude %{?__requires_exclude:%{__requires_exclude}|}^golang\\(.*\\)$
 %endif
 
-# https://github.com/kubernetes-sigs/kind
+# https://sigs.k8s.io/kind
 %global goipath         sigs.k8s.io/kind
+%global forgeurl        https://sigs.k8s.io/kind
 Version:                0.29.0
 %global tag             v0.29.0
 
