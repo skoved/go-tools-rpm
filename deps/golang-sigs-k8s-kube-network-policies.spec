@@ -43,6 +43,13 @@ License:        Apache-2.0
 URL:            %{gourl}
 Source:         %{gosource}
 
+Provides: golang(sigs.k8s.io/network-policy-api/apis/v1alpha1) = %{version}-%{release}
+Provides: golang(sigs.k8s.io/network-policy-api/pkg/client/clientset/versioned) = %{version}-%{release}
+Provides: golang(sigs.k8s.io/network-policy-api/pkg/client/clientset/versioned/fake) = %{version}-%{release}
+Provides: golang(sigs.k8s.io/network-policy-api/pkg/client/informers/externalversions) = %{version}-%{release}
+Provides: golang(sigs.k8s.io/network-policy-api/pkg/client/informers/externalversions/apis/v1alpha1) = %{version}-%{release}
+Provides: golang(sigs.k8s.io/network-policy-api/pkg/client/listers/apis/v1alpha1) = %{version}-%{release}
+
 %description %{common_description}
 
 %gopkg
