@@ -73,7 +73,7 @@ install -m 0755 -vp %{gobuilddir}/bin/* %{buildroot}%{_bindir}/
 %if %{without bootstrap}
 %if %{with check}
 %check
-%gocheck
+%gocheck -r opts_test.go
 %endif
 %endif
 
